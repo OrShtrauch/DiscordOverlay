@@ -1,0 +1,5 @@
+dist/
+build/
+log.txt
+user_id.txt
+token.txt
