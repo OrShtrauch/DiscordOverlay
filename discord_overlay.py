@@ -5,7 +5,6 @@ from tkinter.simpledialog import askstring
 from requests import get, patch
 from requests.exceptions import RequestException
 from logging import getLogger, basicConfig, DEBUG
-from functools import partial
 
 HTTP_200_OK: int = 200
 GUILD_VOICE_TYPE: int = 2
