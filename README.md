@@ -1,5 +1,5 @@
 # Discord Overlay
-## instrution
+## instructions
 ```
 $ echo "INSERT TOKEN HERE" > token.txt`
 $ pyinstaller --onefile discord_overlay.py
