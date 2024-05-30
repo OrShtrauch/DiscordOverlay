@@ -23,7 +23,7 @@ jobs:
 
       - name: Move executable to releases folder
         run: |
-          move dist\your_script.exe releases\discord_overlay-1.0.exe
+          move dist\discord_overlay-1.0.exe releases\discord_overlay-1.0.exe
 
       - name: Commit and push
         run: |
