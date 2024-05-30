@@ -40,5 +40,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./dist/discord_overlay.exe
-          asset_name: discord_overlay-${{ env.VERSION }}.exe
+          asset_name: discord_overlay-1.0.exe
           asset_content_type: application/x-msdownload
